@@ -1,13 +1,17 @@
+import { useContext } from 'react';
+import { AppContext } from '../helpers/context';
 import logo from '../logo.svg';
 import { FaTimes } from 'react-icons/fa';
 import { links, social } from '../data';
 
 const Sidebar = () => {
+  const { isSidebarOpen, closeSidebar } = useContext(AppContext);
+
   return (
-    <aside className={`sidebar show-sidebar`}>
+    <aside className={`${isSidebarOpen ? 'sidebar show-sidebar' : 'sidebar'}`}>
       <div className='sidebar-header'>
         <img src={logo} alt='logo' className='logo' />
-        <button className='close-btn'>
+        <button className='close-btn' onClick={closeSidebar}>
           <FaTimes />
         </button>
       </div>
