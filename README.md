@@ -1,6 +1,6 @@
 # Sidebar and Modal components
 
-Click [here](https://ioannis-sporidis.github.io/rc-pagination/) to check out the component.
+Click [here](https://ioannis-sporidis.github.io/rc-sidebar-modal/) to check out the component.
 
 ## Dependencies
 
