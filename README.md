@@ -1,6 +1,6 @@
 # Sidebar and Modal components
 
-Check out the component [here](https://ioannis-sporidis.github.io/rc-sidebar-modal/)
+Check out the component [here](https://the-fetaverse.github.io/rc-sidebar-modal/)
 
 ## Dependencies
 
